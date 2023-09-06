@@ -13,12 +13,11 @@ const Signup = (props) => {
         <View className='signup-page'>
             <View className='page d-flex j-c-center align-center' >
                 <View className = 'create-account d-flex  '>
-                    <View className='backspace d-flex align-center j-c-center'>
-                        <Link to= "/">
-                            <img className='backspace-image' src={icon}/>
-                        </Link>
-                            
-                    </View>
+                    <Link to= "/">
+                        <View className='backspace d-flex align-center j-c-center'>
+                                <img className='backspace-image' src={icon}/>                            
+                        </View>
+                    </Link>
                     <p className='create-account-title j-c-center align-center '>Create your<br/>Account</p>
                 </View>
                 <View className='input d-flex j-c-center align-center'>
@@ -35,13 +34,14 @@ const Signup = (props) => {
                     <View className='password'>
                         <span className='input-tilte'>Password</span>
                         <ConfigProvider
-                            theme={{token: {colorPrimary: '#F79052',},}}></ConfigProvider>
+                            theme={{token: {colorPrimary: '#F79052',},}}>
                             <Input.Password
                                 className='password-input'
                                 placeholder='input password'
                                 iconRender={(visible) => (visible ? <EyeTwoTone /> : <EyeInvisibleOutlined />)}
                                 style={{ width: '100%', height:'48px' }}
                             />
+                        </ConfigProvider>
                     </View>
                 </View>
                 <View className="d-flex j-c-center align-center" style={{marginTop:'40px'}}>
