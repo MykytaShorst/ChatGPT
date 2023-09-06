@@ -4,17 +4,22 @@ import {ConfigProvider, Input} from 'antd';
 import "./style.scss";
 import React from 'react';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
+import icon from"../../../assests/images/Icon.png";
+import google from"../../../assests/images/google.png";
+import facebook from"../../../assests/images/facebook.png";
+import apple from"../../../assests/images/apple.png";
 const Login = (props) => {
     return (
         <View className='login-page'>
             <View className='page d-flex j-c-center align-center' >
                 <View className = 'login d-flex  '>
-                    <View className='backspace d-flex alingn-center j-c-center'>
-                        <Link to="/">
-                        <img className='backspace-image' src="./icon.png" style={{ marginTop: '12px' }}/>
-                        </Link>
+                <Link to="/">
+                    <View className='backspace d-flex align-center j-c-center'>
+                        <img className='backspace-image' src={icon}/>
                     </View>
-                    <p className='login-title j-c-center align-center '>Login to your<br/>account</p>
+                </Link>        
+                    
+                    <p className='login-title j-c-center align-center '>Login to your<br/>Account</p>
                 </View>
                 <View className='input d-flex j-c-center align-center'>
                     <View className='email'>
@@ -51,13 +56,13 @@ const Login = (props) => {
                 </View>
                 <View className='social-media d-flex'>
                     <View className = 'social-media-white d-flex align-items-center'>
-                        <img src = "./apple.png" width="39px" height="39px" className='mx-auto'/>
+                        <img src = {apple} width="39px" height="39px" className='mx-auto'/>
                     </View>
                     <View className = 'social-media-white d-flex align-items-center'>
-                        <img src = "./google.png" width="39px" height="39px" className='mx-auto'/>
+                        <img src = {google} width="39px" height="39px" className='mx-auto'/>
                     </View>
                     <View className = 'social-media-white d-flex align-items-center'>
-                        <img src = "./facebook.png" width="39px" height="39px" className='mx-auto'/>
+                        <img src = {facebook} width="39px" height="39px" className='mx-auto'/>
                     </View>
                 </View>
             </View>

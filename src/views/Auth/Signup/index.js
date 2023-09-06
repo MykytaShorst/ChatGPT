@@ -4,6 +4,10 @@ import View from '../../../components/UI/View/index';
 import "./style.scss";
 import {ConfigProvider, Input} from 'antd';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
+import icon from"../../../assests/images/Icon.png";
+import google from"../../../assests/images/google.png";
+import facebook from"../../../assests/images/facebook.png";
+import apple from"../../../assests/images/apple.png";
 const Signup = (props) => {
     return (
         <View className='signup-page'>
@@ -11,11 +15,11 @@ const Signup = (props) => {
                 <View className = 'create-account d-flex  '>
                     <View className='backspace d-flex align-center j-c-center'>
                         <Link to= "/">
-                            <img src="./icon.png"/>
+                            <img className='backspace-image' src={icon}/>
                         </Link>
                             
                     </View>
-                    <p className='create-account-title j-c-center align-center '>Create your<br/>account</p>
+                    <p className='create-account-title j-c-center align-center '>Create your<br/>Account</p>
                 </View>
                 <View className='input d-flex j-c-center align-center'>
                     <View className='email'>
@@ -45,20 +49,20 @@ const Signup = (props) => {
                     <span>Remember me</span>
                 </View>
                 <View className='signup-button d-flex align-center j-c-center'>
-                    <p className='button-title'>Signup</p>
+                    <p className='button-title'>Sign up</p>
                 </View>
                 <View className='continue d-flex align-center j-c-center'>
                     <p className='continue-title'>or continue with</p>
                 </View>
                <View className='social-media d-flex'>
                     <View className = 'social-media-white d-flex align-items-center'>
-                        <img src = "./apple.png" width="39px" height="39px" className='mx-auto'/>
+                        <img src = {apple} width="39px" height="39px" className='mx-auto'/>
                     </View>
                     <View className = 'social-media-white d-flex align-items-center'>
-                        <img src = "./google.png" width="39px" height="39px" className='mx-auto'/>
+                        <img src = {google} width="39px" height="39px" className='mx-auto'/>
                     </View>
                     <View className = 'social-media-white d-flex align-items-center'>
-                        <img src = "./facebook.png" width="39px" height="39px" className='mx-auto'/>
+                        <img src = {facebook} width="39px" height="39px" className='mx-auto'/>
                     </View>
                 </View>
             </View>

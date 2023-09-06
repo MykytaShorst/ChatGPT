@@ -1,7 +1,6 @@
 .login-page {
     background-color: #F1F4F7;
-    height: 100vh;
-    width: 100wh;
+
 
     .page {
         padding-top: 169px;
@@ -13,19 +12,10 @@
             height: 102px;
 
             .backspace {
-                position: relative;
-                justify-items: start;
-                margin-left: 3px;
-                margin-top: 2px;
                 width: 52px;
                 height: 52px;
                 border-radius: 50%;
                 background-color: #E6E7E8;
-                .backspace-image{
-                    margin-top:12px;
-                    width:20px;
-                    height: 20px;
-                }
             }
 
             .login-title {
@@ -33,7 +23,7 @@
                 font-family: IBM Plex Sans;
                 font-size: 48px;
                 font-weight: 600;
-                line-height: 36px;
+                line-height: 46px;
                 letter-spacing: -0.02em;
                 text-align: center;
 
@@ -49,6 +39,7 @@
             gap: 24px;
 
             .input-title {
+                margin-bottom:7px;
                 text-align: left;
                 font-family: IBM Plex Sans;
                 font-size: 14px;
@@ -95,6 +86,7 @@
         }
 
         .login-button {
+            cursor: pointer;
             background-color: #F79052;
             margin: 30px auto;
             width: 404px;
@@ -114,16 +106,19 @@
                 margin: 10px;
             }
         }
-
-        .continue-title {
-            font-family: IBM Plex Sans;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 22px;
+        .continue{
+            .continue-title {
+                font-family: IBM Plex Sans;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 22px;
+            }
         }
+        
 
         .social-media {
-            margin-top: 81px;
+            cursor: pointer;
+            margin-bottom: 89px;
             width: 404px;
             height: 71px;
             flex-direction: row;

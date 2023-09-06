@@ -1,7 +1,6 @@
 .register-page {
     background-color: #F1F4F7;
-    height: 100vh;
-    width: 100wh;
+    min-height: calc(100vh - 96px);
 
     .center {
         display: block;
@@ -31,6 +30,7 @@
     }
 
     .social-media {
+        cursor: pointer;
         background-color: white;
         margin: 20px auto;
         width: 586.7px;
@@ -39,6 +39,7 @@
         padding-right: 116px;
         border: 1px;
         border-color: #E6E7E8;
+        border-radius: 10px;
 
         .social-title {
             color: black;
@@ -54,6 +55,7 @@
     }
 
     .face-or {
+        justify-items: center;
         font-family: IBM Plex Sans;
         font-size: 24px;
         font-weight: 400;
@@ -72,6 +74,7 @@
         border-radius: 45px;
 
         .button-title {
+            
             font-family: IBM Plex Sans;
             font-size: 32px;
             font-weight: 600;
@@ -94,29 +97,31 @@
     }
 
     .signup-link {
+        margin-top: 47px;
         color: #F79052;
     }
-
-    .powerdby {
-        position:absolute;
-        bottom:0px;
-        width: 100%;
-        height: 96px;
-        top: 936px;
-        background-color: #F79052;
-
-        .powerdby-title {
-            margin:28px;
-            font-family: IBM Plex Sans;
-            font-size: 24px;
-            font-weight: 300;
-            line-height: 31px;
-            letter-spacing: 0em;
-            text-align: left;
-            color: #FFFFFF;
-        }
-        
+    .no-account-title{
+        color:#000000;
     }
+}
 
+.powerdby {
 
+    width: 100%;
+    height: 96px;
+    bottom: 0;
+    position: sticky;
+    background-color: #F79052;
+
+    .powerdby-title {
+        margin:28px;
+        font-family: IBM Plex Sans;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
 }

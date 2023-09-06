@@ -32,10 +32,9 @@
                 font-family: IBM Plex Sans;
                 font-size: 48px;
                 font-weight: 600;
-                line-height: 36px;
+                line-height: 46px;
                 letter-spacing: -0.02em;
                 text-align: center;
-
             }
         }
 
@@ -95,6 +94,7 @@
         }
 
         .signup-button {
+            cursor: pointer;
             background-color: #F79052;
             margin: 30px auto;
             width: 404px;
@@ -123,7 +123,8 @@
         }
 
         .social-media {
-            margin-top: 81px;
+            cursor: pointer;
+            margin-bottom: 8ppx;
             width: 404px;
             height: 71px;
             flex-direction: row;
