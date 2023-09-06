@@ -1,0 +1,122 @@
+.register-page {
+    background-color: #F1F4F7;
+    height: 100vh;
+    width: 100wh;
+
+    .center {
+        display: block;
+        width: 198px;
+        height: 198px;
+        margin: 0px auto;
+    }
+
+    .text-center {
+        font-family: IBM Plex Sans;
+        font-size: 96px;
+        font-weight: 600;
+        line-height: 125px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .face-let {
+        font-family: IBM Plex Sans;
+        font-size: 96px;
+        font-weight: 600;
+        line-height: 125px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .social-media {
+        background-color: white;
+        margin: 20px auto;
+        width: 586.7px;
+        height: 85.96px;
+        padding-left: 116px;
+        padding-right: 116px;
+        border: 1px;
+        border-color: #E6E7E8;
+
+        .social-title {
+            color: black;
+            font-family: IBM Plex Sans;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin: 10px;
+            margin-left: 40px;
+        }
+    }
+
+    .face-or {
+        font-family: IBM Plex Sans;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .signin-button {
+        background-color: #F79052;
+        margin: 20px auto;
+        width: 586.7px;
+        height: 85.96px;
+        border: 1px solid;
+        border-color: #F79052;
+        border-radius: 45px;
+
+        .button-title {
+            font-family: IBM Plex Sans;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #F1F4F7;
+            margin: 10px;
+        }
+    }
+
+
+    .no-account-font {
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .signup-link {
+        color: #F79052;
+    }
+
+    .powerdby {
+        position:absolute;
+        bottom:0px;
+        width: 100%;
+        height: 96px;
+        top: 936px;
+        background-color: #F79052;
+
+        .powerdby-title {
+            margin:28px;
+            font-family: IBM Plex Sans;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #FFFFFF;
+        }
+        
+    }
+
+
+}

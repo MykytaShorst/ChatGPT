@@ -1,0 +1,129 @@
+.signup-page {
+    background-color: #F1F4F7;
+    height: 100vh;
+    width: 100wh;
+
+    .page{
+        padding-top: 169px;
+        flex-direction: column;
+
+        .create-account {
+            justify-items: start;
+            width: 407px;
+            height: 102px;
+
+            .backspace {
+                justify-items: start;
+                margin-left: 3px;
+                width: 52px;
+                height: 52px;
+                border-radius: 50%;
+                background-color: #E6E7E8;
+            }
+
+            .create-account-title {
+                margin-left:30px;
+                font-family: IBM Plex Sans;
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 36px;
+                letter-spacing: -0.02em;
+                text-align: center;
+
+            }
+        }
+        .input {
+            vertical-align: top;
+            flex-direction: column;
+            width: 404px;
+            height: 183px;
+            margin-top: 49px;
+            gap: 24px;
+    
+            .input-title {
+                text-align: left;
+                font-family: IBM Plex Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19px;
+                letter-spacing: -0.02em;
+                text-align: left;
+    
+            }
+    
+            .email {
+                padding-left: 0%;
+                width:407px;
+                height: 74px;
+                gap: 7px;
+            }
+    
+            .password {
+                position: relative;
+                padding-left: 0%;
+                width: 404px;
+                height: 74px;
+                gap: 7px;               
+            }
+
+            .sight {
+                width: 19px;
+                height: 14px;
+                position: absolute;
+                top: 39px;
+                right: 20px;
+            }
+        }
+        #remember{
+            accent-color: #F79052;
+        }
+        .remember {
+            width: 20px;
+            height: 20px;
+            margin-right: 15px;
+            border: 1px solid #F79052;
+            border-radius: 10px;
+        }
+        .signup-button{
+            background-color: #F79052;
+            margin: 30px auto;
+            width: 404px;
+            height: 61.8px;
+            border: 1px solid;
+            border-color: #F79052;
+            border-radius: 45px;
+            .button-title {
+                font-family: IBM Plex Sans;
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 42px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #F1F4F7;
+                margin: 10px;
+            }
+        }
+        .continue-title{
+            font-family: IBM Plex Sans;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+
+        .social-media{
+            margin-top: 81px;
+            width: 404px;
+            height: 71px;
+            flex-direction: row;
+            justify-content: space-around;
+            .social-media-white{
+                width: 71px;
+                height:71px;
+                background-color: #ffffff;
+                border:1px #E6E7E8;
+                border-radius: 15%;
+            }
+            
+        }
+    }
+}

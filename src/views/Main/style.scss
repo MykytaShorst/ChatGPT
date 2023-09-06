@@ -1,0 +1,28 @@
+.main-page {
+    background-color: #F1F4F7;
+    height: 100vh;
+    width: 100wh;
+    .top{
+        width: 140px;
+        height: 133px;
+        .left {
+            display: block;
+            width: 107px;
+            height: 107px;
+            margin: 0px auto;
+        }
+        .left-text {
+            font-family: IBM Plex Sans;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .bar{
+            width: 215px;
+            height: 86px;
+
+        }
+    }
+}
