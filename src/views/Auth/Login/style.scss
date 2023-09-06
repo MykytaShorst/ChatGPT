@@ -13,12 +13,19 @@
             height: 102px;
 
             .backspace {
+                position: relative;
                 justify-items: start;
                 margin-left: 3px;
+                margin-top: 2px;
                 width: 52px;
                 height: 52px;
                 border-radius: 50%;
                 background-color: #E6E7E8;
+                .backspace-image{
+                    margin-top:12px;
+                    width:20px;
+                    height: 20px;
+                }
             }
 
             .login-title {
@@ -74,9 +81,11 @@
                 right: 20px;
             }
         }
-        #remember{
+
+        #remember {
             accent-color: #F79052;
         }
+
         .remember {
             width: 20px;
             height: 20px;
@@ -84,6 +93,7 @@
             border: 1px solid #F79052;
             border-radius: 10px;
         }
+
         .login-button {
             background-color: #F79052;
             margin: 30px auto;

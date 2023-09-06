@@ -11,7 +11,7 @@ const Signup = (props) => {
                 <View className = 'create-account d-flex  '>
                     <View className='backspace d-flex align-center j-c-center'>
                         <Link to= "/">
-                            <img src="./icon.png" />
+                            <img src="./icon.png"/>
                         </Link>
                             
                     </View>

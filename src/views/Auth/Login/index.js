@@ -11,7 +11,7 @@ const Login = (props) => {
                 <View className = 'login d-flex  '>
                     <View className='backspace d-flex alingn-center j-c-center'>
                         <Link to="/">
-                            <img src="./icon.png" />
+                        <img className='backspace-image' src="./icon.png" style={{ marginTop: '12px' }}/>
                         </Link>
                     </View>
                     <p className='login-title j-c-center align-center '>Login to your<br/>account</p>
