@@ -7,7 +7,6 @@ import facebook from"../../assests/images/facebook.png";
 import apple from"../../assests/images/apple.png";
 const Register = (props) => {
     return (
-        <View>
         <View className="register-page" >
             <img src = {rectangle} className='center'/>
             <p className='text-center font-weight-bold'>Let's you in</p>
@@ -36,10 +35,9 @@ const Register = (props) => {
                     <p className='no-account-title'>Don't have an account? <span className='signup-link'> Sign Up</span></p>
                 </Link>
             </View>
-        </View>
-        <View className='powerdby d-flex align-center j-c-center'>
-            <p className='powerdby-title d-flex align-center j-c-center'>Powerd By OpenAI</p>
-        </View>
+            <View className='powerdby d-flex align-center j-c-center'>
+                <p className='powerdby-title d-flex align-center j-c-center'>Powerd By OpenAI</p>
+            </View>
         </View>
     );
 }

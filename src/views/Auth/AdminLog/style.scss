@@ -1,33 +1,24 @@
-.signup-page {
+.login-page {
     background-color: #F1F4F7;
-    height: 100vh;
-    width: 100wh;
+
 
     .page {
         padding-top: 169px;
         flex-direction: column;
 
-        .create-account {
+        .login {
             justify-items: start;
             width: 407px;
             height: 102px;
 
             .backspace {
-                position: relative;
-                justify-items: start;
-                margin-left: 3px;
-                margin-top: 2px;
                 width: 52px;
                 height: 52px;
                 border-radius: 50%;
                 background-color: #E6E7E8;
-                .backspace-image{
-                    width:20px;
-                    height: 20px;
-                }
             }
 
-            .create-account-title {
+            .login-title {
                 margin-left: 30px;
                 font-family: IBM Plex Sans;
                 font-size: 48px;
@@ -35,6 +26,7 @@
                 line-height: 46px;
                 letter-spacing: -0.02em;
                 text-align: center;
+
             }
         }
 
@@ -47,6 +39,7 @@
             gap: 24px;
 
             .input-title {
+                margin-bottom:7px;
                 text-align: left;
                 font-family: IBM Plex Sans;
                 font-size: 14px;
@@ -65,7 +58,6 @@
             }
 
             .password {
-                position: relative;
                 padding-left: 0%;
                 width: 404px;
                 height: 74px;
@@ -93,7 +85,7 @@
             border-radius: 10px;
         }
 
-        .signup-button {
+        .login-button {
             cursor: pointer;
             background-color: #F79052;
             margin: 30px auto;
@@ -114,30 +106,9 @@
                 margin: 10px;
             }
         }
+      
+        
 
-        .continue-title {
-            font-family: IBM Plex Sans;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 22px;
-        }
-
-        .social-media {
-            cursor: pointer;
-            margin-bottom: 8ppx;
-            width: 404px;
-            height: 71px;
-            flex-direction: row;
-            justify-content: space-around;
-
-            .social-media-white {
-                width: 71px;
-                height: 71px;
-                background-color: #ffffff;
-                border: 1px #E6E7E8;
-                border-radius: 15%;
-            }
-
-        }
+        
     }
 }

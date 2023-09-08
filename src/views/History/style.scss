@@ -1,0 +1,190 @@
+.main-page {
+    background-color: #F1F4F7;
+    height: 100vh;
+    width: 100vw;
+
+    .top {
+        width: 100%;
+        height: 133px;
+        border-bottom: inset;
+        border-bottom-color: 1px #E6E7E8;
+
+        .left {
+            display: block;
+            margin-top: 10px auto;
+            float: left;
+        }
+
+        .left-text {
+            font-family: IBM Plex Sans;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+
+    .chat-history {
+        width: 100%;
+        flex-direction: column;
+
+        .active-history {
+            width:100%;
+            height: fit-content;
+
+            .headline {
+                margin-left: 99px;
+                font-family: IBM Plex Sans;
+                font-size: 36px;
+                font-weight: 400;
+                line-height: 47px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            .active-history-chat {
+                margin-right: 57px;
+                display: flex;
+                margin-left: 54px;
+                margin-top: 15px;
+                height: 158px;
+                background-color: white;
+                border-radius: 33px;
+                .image {
+                    margin-top: 13px;
+                    margin-left: 28px;
+                    width: 132px;
+                    height: 128px;
+                    background-color: #F1F2F2;
+                    border-radius: 50%;
+                }
+
+                .flashbot {
+                    width: 1110px;
+                    height: 83px;
+                    margin-top: 22px;
+                    ;
+                    margin-left: 48px;
+
+                    .flashbot-title {
+                        font-family: IBM Plex Sans;
+                        font-size: 36px;
+                        font-weight: 400;
+                        line-height: 47px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+
+                    .content-tilte {
+                        font-family: IBM Plex Sans;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 31px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+            }
+            
+        }
+
+        .ended-history {
+            width: 100%;
+            height: fit-content;
+            flex-direction: column;
+
+            .ended-history-header {
+                margin-top: 21px;
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
+                height: 47px;
+
+                .headline {
+                    font-family: IBM Plex Sans;
+                    font-size: 36px;
+                    font-weight: 400;
+                    line-height: 47px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                .see-all {
+                    margin: 12px;
+                    color: #F79052;
+                    font-family: IBM Plex Sans;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .history-chat {
+        display: flex;
+        margin-left: 54px;
+        margin-right: 57px;
+        margin-top: 15px;
+        height: 158px;
+        background-color: white;
+        border-radius: 33px;
+        .image {
+            margin-top: 13px;
+            margin-left: 28px;
+            width: 132px;
+            height: 128px;
+            background-color: #F1F2F2;
+            border-radius: 50%;
+        }
+
+        .flashbot {
+            width: 1110px;
+            height: 83px;
+            margin-top: 22px;
+            ;
+            margin-left: 48px;
+
+            .flashbot-title {
+                font-family: IBM Plex Sans;
+                font-size: 36px;
+                font-weight: 400;
+                line-height: 47px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+
+            .content-tilte {
+                font-family: IBM Plex Sans;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 31px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+    }
+
+    .start-another {
+        position: absolute;
+        top: 890px;
+        width: 561px;
+        height: 59px;
+        border-radius: 102px;
+        background-color: #F79052;
+
+        .bottom-tilte {
+            margin-top: 15px;;
+            color: #FFFF;
+            font-family: IBM Plex Sans;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: -0.02em;
+            text-align: left;
+        }
+    }
+}

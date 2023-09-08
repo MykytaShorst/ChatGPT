@@ -1,0 +1,38 @@
+.main-page {
+    background-color: #F1F4F7;
+    height: 100vh;
+    width: 100vw;
+    .start-img{
+        position: absolute;
+        top:11vh;
+        left:34vw;
+
+    }
+    .help {
+        display: flex;
+        position: absolute;
+        bottom:23px;
+        right: 23px;
+        width: 467px;
+        height: 129px;
+        flex-direction: row;
+        .help-message {
+            display: flex;
+            align-self: center;
+            width: 283px;
+            height: 26px;
+            background-color: #2484c6;
+            box-shadow: 7px 7px 10px 0px #231F201C;
+            border-radius: 10px;
+            .help-font {
+                font-family: IBM Plex Sans;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+        
+    }
+}
